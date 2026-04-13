@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arte Decoración y Muebles</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="bg-light py-4 text-center border-bottom">
+    <h1 class="fw-bold mb-0">
+      Arte Decoración<br>
+      <span class="fs-4 text-secondary">y Muebles</span>
+    </h1>
+  </header>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <span class="navbar-brand fw-bold">ADM</span>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#categorias">Categorías</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#productos">Catálogo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="bg-warning bg-opacity-75 text-dark text-center py-5">
+    <div class="container">
+      <h2 class="fw-bold mb-2">
+        Muebles a medida en madera de calidad
+      </h2>
+      <p class="fs-5 text-muted">
+        CDMX y Estado de México
+      </p>
+    </div>
+  </section>
+
+  <section id="categorias" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Categorías</h2>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="border rounded p-3 h-100">
+            <h3 class="h5 text-success">Salas</h3>
+            <p class="mb-0">
+              Sillones, mesas de centro y muebles de TV.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="border rounded p-3 h-100">
+            <h3 class="h5 text-success">Comedores</h3>
+            <p class="mb-0">
+              Mesas y sillas en madera natural o entintada.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="border rounded p-3 h-100">
+            <h3 class="h5 text-success">Recámaras</h3>
+            <p class="mb-0">
+              Cabeceras, burós y clósets a la medida.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="productos" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Productos destacados</h2>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 border-warning">
+            <div class="card-body">
+              <h3 class="h5 card-title">Mesa de comedor</h3>
+              <p class="card-text">
+                Madera de pino para 6 personas.
+              </p>
+              <p class="fw-bold text-success">$8,900 MXN</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 border-warning">
+            <div class="card-body">
+              <h3 class="h5 card-title">Buró minimalista</h3>
+              <p class="card-text">
+                Dos cajones, acabado natural.
+              </p>
+              <p class="fw-bold text-success">$1,750 MXN</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 border-warning">
+            <div class="card-body">
+              <h3 class="h5 card-title">Mueble de TV</h3>
+              <p class="card-text">
+                Puertas y repisas ajustables.
+              </p>
+              <p class="fw-bold text-success">$4,600 MXN</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contacto</h2>
+
+      <form class="mx-auto" style="max-width: 500px;">
+        <div class="mb-3">
+          <label class="form-label">Nombre</label>
+          <input type="text" class="form-control">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Teléfono</label>
+          <input type="tel" class="form-control">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Correo</label>
+          <input type="email" class="form-control">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Mensaje</label>
+          <textarea class="form-control" rows="4"></textarea>
+        </div>
+
+        <div class="text-center">
+          <button class="btn btn-success px-4">
+            Enviar
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">
+      © Arte Decoración y Muebles
+    </p>
+  </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+</body>
+</html>
